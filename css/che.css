@@ -1,0 +1,23 @@
+div.hidden {
+    display: none
+}
+
+h1{
+  font-family: 'Cookie', cursive;
+}
+
+h2,h3{
+  font-family: 'Raleway', semi-bold;
+}
+
+h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+  font-family: 'Cookie', cursive;
+}
+
+nav{
+  font-family: 'Raleway', sans-serif;
+}
