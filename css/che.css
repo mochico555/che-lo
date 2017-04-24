@@ -15,9 +15,31 @@ h4,h5,h6{
 }
 
 p{
-  font-family: 'Cookie', cursive;
+  font-size: 1.5em;
 }
 
 nav{
   font-family: 'Raleway', sans-serif;
+}
+
+.smalltxt{
+  font-size: 1em;
+}
+
+.mid{
+  text-align: center;
+}
+
+.cookie{
+  font-family:'Cookie', cursive;
+}
+.fit{
+  padding: inherit;
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.ralewaysb{
+  font-family: 'Raleway', semi-bold;
 }
