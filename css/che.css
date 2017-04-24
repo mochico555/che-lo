@@ -1,0 +1,45 @@
+div.hidden {
+    display: none
+}
+
+h1{
+  font-family: 'Cookie', cursive;
+}
+
+h2,h3{
+  font-family: 'Raleway', semi-bold;
+}
+
+h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+nav{
+  font-family: 'Raleway', sans-serif;
+}
+
+.smalltxt{
+  font-size: 1em;
+}
+
+.mid{
+  text-align: center;
+}
+
+.cookie{
+  font-family:'Cookie', cursive;
+}
+.fit{
+  padding: inherit;
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.ralewaysb{
+  font-family: 'Raleway', semi-bold;
+}
