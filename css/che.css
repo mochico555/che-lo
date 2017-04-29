@@ -13,7 +13,7 @@ div.hidden {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgb(0, 255, 85); /* limegreen*/
+    background-color: rgb(68, 242, 44); /* limegreen*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -86,13 +86,13 @@ a:hover.current {
   z-index: 12;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 255, 85);
+  background-color: rgb(68, 242, 44);
   box-shadow: 3px 3px 6px 3px green;
   color:white;
 }
 .menu{
   color: white;
-  background-color: rgb(0, 255, 85);
+  background-color: rgb(68, 242, 44);
   text-decoration: none;
 }
 .side_bar{
