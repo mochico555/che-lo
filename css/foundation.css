@@ -2473,7 +2473,7 @@ select {
     position: absolute;
     top: 50%;
     margin-top: -6px;
-    right: 1rem; }
+    right: 1rem;}
 
 .js-drilldown-back > a::before {
   display: block;
@@ -2488,7 +2488,7 @@ select {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.75rem;
-  border-left-width: 0; }
+  border-left-width: 0;}
 
 .dropdown-pane {
   position: absolute;
@@ -2567,7 +2567,7 @@ select {
   content: '';
   border-left-width: 0;
   border-right-style: solid;
-  border-color: transparent #1779ba transparent transparent; }
+  border-color: transparent #1779ba transparent transparent;}
 
 .dropdown.menu.vertical > li.opens-right > a::after {
   display: block;
