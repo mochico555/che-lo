@@ -1,7 +1,7 @@
-div.hidden {
+span.hidden {
     display: none
 }
-/* CSS for mobile slidenav*/
+/* CSS for slidenav*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 15px;}
@@ -27,9 +27,17 @@ div.hidden {
     transition: 0.3s
 }
 
-/* CSS for mobile pop-up*/
+body{
+  background-color: yellow;
+}
+main{
+  width: auto;
+  margin-left: 250px;
+  background-color: yellow;
+}
 h1{
   font-family: 'Cookie', cursive;
+  color:red;
 }
 
 h2,h3{
@@ -82,7 +90,7 @@ a:hover.current {
 /*glen--this is a wrapper for the side_bar*/
 #side_bar_wrapper{
   position: fixed;
-  width: 20%;
+  width: 250px;
   z-index: 12;
   height: 100%;
   overflow: auto;
@@ -90,11 +98,16 @@ a:hover.current {
   box-shadow: 3px 3px 6px 3px green;
   color:white;
 }
+.social_media{
+  display: inline;
+  list-style-type: none;
+}
 .menu{
   color: white;
   background-color: rgb(68, 242, 44);
   text-decoration: none;
 }
+
 .side_bar{
   margin-bottom: 50px;
   text-align: center;
@@ -110,31 +123,26 @@ a:hover.current {
 }
 /* css for the carousel*/
 .slide_bar{
-  width: 80%;
+  width: 100%;
   position: absolute;
-  margin-left: 20%;
-  margin-top: 5%;
+  margin-left: 100px;
   overflow: auto;
   background-color: lightyellow;
 }
-.slide_bar_pics{
-  overflow:auto;
-}
 .smalltxt{
-  font-size: 1em;
+  font-size: 12px;
 }
 /*CSS for the fixing stuff*/
 .mid{
   text-align: center;
 }
-
 .cookie{
   font-family:'Cookie', cursive;
+  color: red;
 }
 .fit{
   padding: inherit;
 }
-
 .raleway{
   font-family: 'Raleway', sans-serif;
 }

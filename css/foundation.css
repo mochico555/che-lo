@@ -3039,13 +3039,15 @@ select {
 
 .orbit-container {
   position: relative;
-  height: 0;
+  width: auto;
   margin: 0;
   list-style: none;
   overflow: hidden; }
 
 .orbit-slide {
-  width: 100%; }
+  width: 100%;
+  height: 500px;}
+
   .orbit-slide.no-motionui.is-active {
     top: 0;
     left: 0; }
@@ -3056,13 +3058,14 @@ select {
 .orbit-image {
   width: 100%;
   max-width: 100%;
-  margin: 0; }
+  margin:0; }
 
 .orbit-caption {
   position: absolute;
   bottom: 0;
   width: 100%;
   margin-bottom: 0;
+  text-align: center;
   padding: 1rem;
   background-color: rgba(10, 10, 10, 0.5);
   color: #fefefe; }
