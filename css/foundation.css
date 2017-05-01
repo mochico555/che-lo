@@ -3039,6 +3039,7 @@ select {
 
 .orbit-container {
   position: relative;
+  padding: 0;
   width: auto;
   margin: 0;
   list-style: none;
@@ -3046,7 +3047,7 @@ select {
 
 .orbit-slide {
   width: 100%;
-  height: 500px;}
+  height: 600px;}
 
   .orbit-slide.no-motionui.is-active {
     top: 0;
