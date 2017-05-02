@@ -16,34 +16,45 @@
   </head>
 <body>
   <header>
-    <button type="button" class="button" data-toggle="offCanvasLeft1">&#9776;Menu</button>
+    <button type="button" class="button" data-toggle="offCanvasLeft1">Menu</button>
   <!--Navigation-->
-    <div class="row">
       <div class="off-canvas-wrapper">
         <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
-          <!--Logo Here-->
 
-          <!--Logo Here-->
-          <section>
+          <section class="mid">
             <div>
             <div class="menu line">
-              <a href="index.html"><img src="img/ocopy.png" alt=""></a>
+              <a href="index.html"><img src="img/logo_chelo.png" alt=""></a>
             </div>
+
             <div class="menu line">
-            <nav class="menu">
-              <ul class="fit menu" data-drilldown>
+            <nav>
+              <ul id="fontblack" class="fit menu" data-drilldown>
                 <li>
                   <a href="index.html">Home</a>
                 </li>
                 <li>
-                  <a href="menu.html">Menu</a>
+                  <a id="fontblack" class="current">Menu</a>
                   <ul class="menu">
-                    <li><a href="menudrinks.html">Drinks</a></li>
-                    <li><a href="menufood.html">Food</a></li>
+                    <li><a href="menudrinks.html" id="fontblack">Drinks</a>
+                      <ul class="menu">
+                        <li>
+                          <a href="Greenshit.html">GreenShit</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li><a href="menufood.html" id="fontblack" class="current">Food</a>
+                      <ul class="menu">
+                        <li>
+                          <a href="Greenshit.html">GreenShit</a>
+                        </li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="about.html" class="current">About Us</a>
+                  <a href="about.html">About Us</a>
                 </li>
                 <li>
                   <a href="contact.html">Contact Us</a>
@@ -51,10 +62,11 @@
               </ul>
             </nav>
           </div>
-        <div class="menu">
-            <nav class="fit menu">
-              <p>Connect with us!</p>
-                <ul class="inline">
+
+        <div class="menu mid">
+            <h6 id="padding">Connect with us!</h6>
+            <nav id="no_padding" class="fit menu">
+                <ul>
                   <li>
                       <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
                   </li>
@@ -70,13 +82,13 @@
                   </li>
                 </ul>
               </nav>
-              <p class="copyright raleway">Copyright (c) 2017 Che-Lo. All Rights Reserved.</p>
+              <p class="copyright raleway">(c) 2017 Che-Lo. All Rights Reserved.</p>
             </div>
           </section>
         </div>
       </div>
+    </div>
   </header>
-
 <main>
   <section class="row">
     <h1 class="mid">Food</h1>

@@ -15,7 +15,83 @@
 
   </head>
   <body>
-    <section class="row">
+    <header>
+      <button type="button" class="button" data-toggle="offCanvasLeft1">Menu</button>
+    <!--Navigation-->
+        <div class="off-canvas-wrapper">
+          <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
+
+            <section class="mid">
+              <div>
+              <div class="menu line">
+                <a href="index.html"><img src="img/logo_chelo.png" alt=""></a>
+              </div>
+
+              <div class="menu line">
+              <nav>
+                <ul id="fontblack" class="fit menu" data-drilldown>
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a id="fontblack">Menu</a>
+                    <ul class="menu">
+                      <li><a href="menudrinks.html" id="fontblack">Drinks</a>
+                        <ul class="menu">
+                          <li>
+                            <a href="Greenshit.html">GreenShit</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li><a href="menufood.html" id="fontblack">Food</a>
+                        <ul class="menu">
+                          <li>
+                            <a href="Greenshit.html" class="current">GreenShit</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+          <div class="menu mid">
+              <h6 id="padding">Connect with us!</h6>
+              <nav id="no_padding" class="fit menu">
+                  <ul>
+                    <li>
+                        <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/che_lounioncity/?hl=en"target="_blank">
+                        <img src="webicons/webicon-instagram-s.png" alt="instagram">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.yelp.com/biz/che-lo-union-city-2" target="_blank">
+                        <img src="webicons/webicon-yelp-s.png" alt="Yelp">
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <p class="copyright raleway">(c) 2017 Che-Lo. All Rights Reserved.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="row">
+    <section class="container column small-12 medium-6 large-12">
       <div>
           <h3>Green/Black Tea</h3>
           <p class="smalltxt">All teas are freshly brewed. Choose up to 3 free toppings. All drinks are served cold unless requested.</p>
@@ -34,6 +110,8 @@
           <li>T11. Tropical Twister Tea</li>
         </ul>
     </section>
+    </article>
+  </main>
   </body>
 
   <script src="js/vendor/jquery.js"></script>
