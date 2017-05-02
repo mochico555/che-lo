@@ -15,63 +15,82 @@
 
   </head>
 <body>
-  <header id="side_bar_wrapper" class="column small-12 medium-6 large-12 mid">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<a href="index.html"><img src="img/ocopy.png" alt="Che-lo"></a></span>
-<!--this is sidenav-->
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn"     onclick="closeNav()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="index.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact Us</a>
-</div>
+  <header>
+    <button type="button" class="button" data-toggle="offCanvasLeft1">&#9776;Menu</button>
+  <!--Navigation-->
+    <div class="row">
+      <div class="off-canvas-wrapper">
+        <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
+          <!--Logo Here-->
 
-<!--this is nav-->
-    <nav  class="column small-12 medium-6 large-12 line">
-      <ul class="fit menu" data-drilldown>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="#">Menu</a>
-          <ul class="menu">
-            <li><a href="menudrinks.html" class="current">Drinks</a></li>
-            <li><a href="menufood.html">Food</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="about.html">About Us</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-<!--socialmedia-->
-<div class="column small-12 medium-6 large-12">
-<p class="raleway">Connect with us!</p>
-<nav>
-    <ul class="inline">
-      <li>
-          <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/che_lounioncity/?hl=en">
-          <img src="webicons/webicon-instagram-s.png" alt="instagram">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.yelp.com/biz/che-lo-union-city-2">
-          <img src="webicons/webicon-yelp-s.png" alt="Yelp">
-        </a>
-      </li>
-    </ul>
-  </nav>
-    <p class="copyright raleway">Copyright (c) 2017 Che-Lo. All Rights Reserved.</p>
-</div>
+          <!--Logo Here-->
+          <section>
+            <div>
+            <div class="menu line">
+              <a href="index.html"><img src="img/ocopy.png" alt=""></a>
+            </div>
+            <div class="menu line">
+            <nav class="menu">
+              <ul class="fit menu" data-drilldown>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="menu.html">Menu</a>
+                  <ul class="menu">
+                    <li><a href="menudrinks.html">Drinks</a>
+                      <ul class="menu">
+                        <li>
+                          <a href="Greenshit.html">GreenShit</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li><a href="menufood.html">Food</a>
+                      <ul class="menu">
+                        <li>
+                          <a href="Greenshit.html">GreenShit</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="about.html" class="current">About Us</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        <div class="menu">
+            <nav class="fit menu">
+              <p>Connect with us!</p>
+                <ul class="inline">
+                  <li>
+                      <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/che_lounioncity/?hl=en"target="_blank">
+                      <img src="webicons/webicon-instagram-s.png" alt="instagram">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.yelp.com/biz/che-lo-union-city-2" target="_blank">
+                      <img src="webicons/webicon-yelp-s.png" alt="Yelp">
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <p class="copyright raleway">Copyright (c) 2017 Che-Lo. All Rights Reserved.</p>
+            </div>
+          </section>
+        </div>
+      </div>
   </header>
 
-<main>
+<main class="container">
   <section class="row">
     <div class="column small-12 medium-6 large-12">
       <h1 class="mid cookie">Drinks</h1>
@@ -80,51 +99,60 @@
   </section>
   <section class="row">
     <div>
-        <h3>Che (Special Desserts)</h3>
+      <div class="column small-12 medium-6 large-6">
+          <h3>Che (Special Desserts)</h3>
+      <ul>
+        <li>
+            <h5>C1. Che-Lo Special<span> ...$3.00</span></h5>
+
+            <p>Agar brick, agar string, mangoe, longan, leechy, plumseed, rumbutan, young coconut meat, aloevera, pink tapioca, rainbow jelly, pandan jelly, taro jelly, cendol, and fresh coconut milk</p>
+        </li>
+
+        <li>C2. Che Suong Sa Hat Luu</li>
+        <li>C3. Che Thap Cam (Halo Halo)</li>
+        <li>C4. Hat Luu Suong Sao Banh Lot</li>
+        <li>C5. Dau Do Khoai Mon Suong Sao</li>
+        <li>C6. Dau Do Banh Lot</li>
+        <li>C7. Thach Ngu Qua Dua Tuoi</li>
+        <li>C8. Thach Sen Dua Tuoi</li>
+        <li>C9. Che Mat</li>
+        <li>C10. Sam Bo Luong</li>
+        <li>C11. Nhan Nhuc Hat E Suong Sao</li>
+        <li>C12. Bo Dam</li>
+      </ul>
     </div>
-    <ul class="column small-12 medium-6 large-12">
-      <li>C1. Che-Lo Special</li>
-      <li>C2. Che Suong Sa Hat Luu</li>
-      <li>C3. Che Thap Cam (Halo Halo)</li>
-      <li>C4. Hat Luu Suong Sao Banh Lot</li>
-      <li>C5. Dau Do Khoai Mon Suong Sao</li>
-      <li>C6. Dau Do Banh Lot</li>
-      <li>C7. Thach Ngu Qua Dua Tuoi</li>
-      <li>C8. Thach Sen Dua Tuoi</li>
-      <li>C9. Che Mat</li>
-      <li>C10. Sam Bo Luong</li>
-      <li>C11. Nhan Nhuc Hat E Suong Sao</li>
-      <li>C12. Bo Dam</li>
-    </ul>
+    <div class="column small-12 medium-6 large-6">
+        <h3>Milk Tea</h3>
+        <p class="smalltxt">All teas are freshly brewed. Choose up to 3 free toppings. All drinks are served cold unless requested.
+        </p>
+      <ul>
+        <li>
+            <h5>M1. Honey Milk Tea<span>...$3.00</span></h5>
+            <p>Bleh bleh blh</p>
+        </li>
+        <li>M2. Jasmine Milk Tea</li>
+        <li>M3. Thai Milk Tea</li>
+        <li>M4. Coconut Milk Tea</li>
+        <li>M5. Taro Milk Tea</li>
+        <li>M6. Chocolate Milk Tea</li>
+        <li>M7. Matcha Latte</li>
+        <li>M8. Mint Green Milk Tea</li>
+        <li>M9. Rose Milk Tea</li>
+        <li>M10. Passion Fruit Milk Tea</li>
+        <li>M11. Mango Milk Tea</li>
+        <li>M12. Lychee Milk Tea</li>
+        <li>M13. Strawberry Milk Tea</li>
+        <li>M14. Honeydew Milk Tea</li>
+        <li>M15. Pineapple Milk Tea</li>
+      </ul>
+    </div>
+    </div>
   </section>
 <!--HEAD-->
-  <section class="row">
-    <div>
-      <h3>Milk Tea</h3>
-      <p class="smalltxt">All teas are freshly brewed. Choose up to 3 free toppings. All drinks are served cold unless requested.</p>
-    </div>
-<!--origin/master-->
-    <ul class="column small-12 medium-6 large-12">
-      <li>M1. Honey Milk Tea</li>
-      <li>M2. Jasmine Milk Tea</li>
-      <li>M3. Thai Milk Tea</li>
-      <li>M4. Coconut Milk Tea</li>
-      <li>M5. Taro Milk Tea</li>
-      <li>M6. Chocolate Milk Tea</li>
-      <li>M7. Matcha Latte</li>
-      <li>M8. Mint Green Milk Tea</li>
-      <li>M9. Rose Milk Tea</li>
-      <li>M10. Passion Fruit Milk Tea</li>
-      <li>M11. Mango Milk Tea</li>
-      <li>M12. Lychee Milk Tea</li>
-      <li>M13. Strawberry Milk Tea</li>
-      <li>M14. Honeydew Milk Tea</li>
-      <li>M15. Pineapple Milk Tea</li>
-    </ul>
-</section>
+
 <section class="row">
   <div>
-      <h3>Green/Black Tea</h3>
+      <h3><a href="Greenshit.html">Green/Black Tea</a></h3>
       <p class="smalltxt">All teas are freshly brewed. Choose up to 3 free toppings. All drinks are served cold unless requested.</p>
   </div>
     <ul class="column small-12 medium-6 large-12">

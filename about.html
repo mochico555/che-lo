@@ -16,74 +16,82 @@
 
   </head>
   <body>
+    <header>
+      <button type="button" class="button" data-toggle="offCanvasLeft1">&#9776;Menu</button>
+    <!--Navigation-->
+      <div class="row">
+        <div class="off-canvas-wrapper">
+          <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
+            <!--Logo Here-->
 
-    <header id="side_bar_wrapper" class="column small-12 medium-6 large-12 mid">
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<a href="index.html"><img src="img/ocopy.png" alt="Che-lo"></a></span>
-  <!--this is sidenav-->
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn"     onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="index.html">Menu</a>
-            <a href="about.html" class="current">About Us</a>
-            <a href="contact.html">Contact Us</a>
+            <!--Logo Here-->
+            <section>
+              <div>
+              <div class="menu line">
+                <a href="index.html"><img src="img/ocopy.png" alt=""></a>
+              </div>
+              <div class="menu line">
+              <nav class="menu">
+                <ul class="fit menu" data-drilldown>
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="menu.html">Menu</a>
+                    <ul class="menu">
+                      <li><a href="menudrinks.html">Drinks</a></li>
+                      <li><a href="menufood.html">Food</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="about.html" class="current">About Us</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          <div class="menu">
+              <nav class="fit menu">
+                <p>Connect with us!</p>
+                  <ul class="inline">
+                    <li>
+                        <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/che_lounioncity/?hl=en"target="_blank">
+                        <img src="webicons/webicon-instagram-s.png" alt="instagram">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.yelp.com/biz/che-lo-union-city-2" target="_blank">
+                        <img src="webicons/webicon-yelp-s.png" alt="Yelp">
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <p class="copyright raleway">Copyright (c) 2017 Che-Lo. All Rights Reserved.</p>
+              </div>
+            </section>
+          </div>
         </div>
 
-  <!--this is nav-->
-        <nav class="line">
-          <ul class="fit menu" data-drilldown>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a>Menu</a>
-              <ul class="menu">
-                <li><a href="menudrinks.html">Drinks</a></li>
-                <li><a href="menufood.html">Food</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="about.html" class="current">About Us</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-  <!--socialmedia-->
-  <div class="column small-12 medium-6 large-12">
-  <p class="raleway">Connect with us!</p>
-  <nav>
-      <ul class="inline">
-        <li>
-            <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/che_lounioncity/?hl=en">
-            <img src="webicons/webicon-instagram-s.png" alt="instagram">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.yelp.com/biz/che-lo-union-city-2">
-            <img src="webicons/webicon-yelp-s.png" alt="Yelp">
-          </a>
-        </li>
-      </ul>
-    </nav>
-      <p class="copyright raleway">Copyright (c) 2017 Che-Lo. All Rights Reserved.</p>
-  </div>
-  </header>
+    </header>
 <main>
   <article class="row">
-
+    <section class="container column small-12 medium-6 large-12">
     <h1 class="mid"> About Us </h1>
 
-      <p class="mid cookie">Here at Che-Lo, the word, “Fresh” is our inspiration for everything. Most of our ingredients are made in-house every day like our beans and meats. We cut our fruits to order    while other items, such as our baguettes, are hand-picked from local shops every morning. Cleanliness is also key </p>
+      <p class="">Here at Che-Lo, the word, “Fresh” is our inspiration for everything. Most of our ingredients are made in-house every day like our beans and meats. We cut our fruits to order    while other items, such as our baguettes, are hand-picked from local shops every morning. Cleanliness is also key </p>
 
     <h1 class="mid">What does “Che-Lo” mean?</h1>
-    	<p class="mid cookie">The word “Che” is directly related to the Vietnamese term that refers to traditional Vietnamese desserts or beverages. “Lo” comes from “Hello” and together, the word is pronounced the same as the Cello instrument which gives off a warm sound.</p>
+    	<p class="">The word “Che” is directly related to the Vietnamese term that refers to traditional Vietnamese desserts or beverages. “Lo” comes from “Hello” and together, the word is pronounced the same as the Cello instrument which gives off a warm sound.</p>
+    </section>
 
   </article>
 </main>
+</div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
