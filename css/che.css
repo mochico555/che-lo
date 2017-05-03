@@ -12,9 +12,10 @@ span.hidden {
 #padding{
   margin: 20px;
 }
-
 body{
-  background-color: #fcfc54;
+  background-image: url("../img/background.gif");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 h1{
   font-family: 'Cookie', cursive;
@@ -35,6 +36,7 @@ ul,li{
 
 nav{
   font-family: 'Raleway', sans-serif;
+
 }
 
 /*-------~~~~~added by glen-------~~~~~*/
@@ -62,7 +64,7 @@ nav a:hover {
 nav a.current {
   background-color: none;
   color: black;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 a:hover.current {
@@ -76,11 +78,12 @@ a:hover.current {
 }
 .menu{
   color: black;
-  background-color: #a4fc4b;
+  background-color: white;
   text-decoration: none;
   font-size: 15px;
   margin: auto;
   padding: 5 0 0 0;
+  opacity: 5.0;
 }
 .copyright{
   font-size: 12px;
@@ -88,6 +91,12 @@ a:hover.current {
 .line{
   padding-bottom: 10px;
   border-bottom: 1px solid white;
+}
+.vspace {
+  margin-top: 20px;
+}
+.nspace{
+  margin-bottom: 10px;
 }
 /* css for the carousel*/
 .slide_bar{
