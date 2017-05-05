@@ -12,13 +12,7 @@ span.hidden {
 #padding{
   margin: 20px;
 }
-body{
-  background-image: url("../img/background.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-}
 main{
-  color: black;
   background-color: rgba(255,255,122,0.5);
 }
 h1{
@@ -80,6 +74,9 @@ a:hover.current {
   color: black;
   background-color: none;
 }
+footer{
+  background-color: black;
+}
 /*glen--this is a wrapper for the side_bar*/
 .button{
   color: white;
@@ -113,7 +110,6 @@ a:hover.current {
   position: absolute;
   margin-left: 100px;
   overflow: auto;
-  background-color: lightyellow;
 }
 .smalltxt{
   font-size: 12px;
