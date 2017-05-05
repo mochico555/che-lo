@@ -17,6 +17,12 @@ body{
   background-repeat: no-repeat;
   background-position: right;
 }
+main{
+    color: black;
+    background-color: rgba(255,255,122,0.5);
+  }
+
+}
 h1{
   font-family: 'Cookie', cursive;
 }
@@ -125,9 +131,9 @@ a:hover.current {
 .ralewaysb{
   font-family: 'Raleway', semi-bold;
 }
-.container{
+/*.container{
   margin: 100px;
   padding: 50px;
   color: black;
   background-color: rgba(255,255,122,0.5);
-}
+}*/
