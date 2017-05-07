@@ -1587,7 +1587,7 @@ kbd {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: none;
+    background-color: transparent;
     color: green; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -2395,7 +2395,7 @@ select {
   vertical-align: middle;
   width: 20px;
   height: 16px;
-  cursor: pointer; }
+  cursor: pointer;}
   .menu-icon::after {
     position: absolute;
     top: 0;
@@ -2403,12 +2403,12 @@ select {
     display: block;
     width: 100%;
     height: 2px;
-    background: #fefefe;
-    box-shadow: 0 7px 0 #fefefe, 0 14px 0 #fefefe;
+    background: black;
+    box-shadow: 0 7px 0 black, 0 14px 0 black;
     content: ''; }
   .menu-icon:hover::after {
-    background: #cacaca;
-    box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca; }
+    background: #15ff00;
+    box-shadow: 0 7px 0 #15ff00, 0 14px 0 #15ff00; }
 
 .menu-icon.dark {
   position: relative;
