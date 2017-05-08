@@ -33,6 +33,7 @@ figcaption{
 p{
 font-family: 'Raleway', sans-serif;
 text-align: justify;
+font-size: 18px;
 }
 main{
   background: linear-gradient(to top, #ffffff 0%, #00ff00 100%);
@@ -44,9 +45,9 @@ header{
   background-repeat: no-repeat;
   background-position: center;
 }
-ul,li{
+ul{
   list-style-type: none;
-  display: inline;
+
 }
 nav ul{
   list-style-type: none;
@@ -129,6 +130,9 @@ a:hover.current {
 }
 .contact,.center{
   text-align: center;
+}
+#wrapper{
+  padding: 10px;
 }
 /* top-bar*/
 
@@ -260,3 +264,51 @@ position: sticky;
             animation: fadeIn 1s ease-in;
   }
 }
+
+.pricing-table {
+  background-color: #fefefe;
+  border: none;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px #cacaca;
+  padding: 0.875rem 1.125rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: #fefefe;
+  color: #0000;
+  border-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: dotted 1px #cacaca;
+}
+
+.pricing-table .price {
+  background-color: #fefefe;
+  font-size: 2rem;
+  border-bottom: 0;
+  border-bottom: dotted 1px #cacaca;
+}
+
+.pricing-table .description {
+  color: #8a8a8a;
+  font-size: 80%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
+}
+
+
+/*~~~~~orbit~~~~~*/

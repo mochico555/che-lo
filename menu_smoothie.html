@@ -4,191 +4,196 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smoothies</title>
-    <link rel="stylesheet" href="css/che.css">
+    <title>Home Page</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-    <link rel="icon" href="img/ocopy.png" type="image/x-icon">
-
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/che.css">
+    <link rel="icon" href="img/che_logo_small.png" type="image/x-icon">
   </head>
-  <body>
-    <header>
-      <button type="button" class="button" data-toggle="offCanvasLeft1">&#9776</button>
-    <!--Navigation-->
-        <div class="off-canvas-wrapper">
-          <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
+<body>
+  <header id="header" class="column small-12 medium-12 large-12">
+    <div class="column small-2 medium-2 large-2">
+      <button type="button" class="button" data-toggle="offCanvasLeft1">&#9776;</button>
+    </div>
+    <div id="main_nav_wrapper" class="column small-8 medium-8 large-8">
+      <a href="index.html"><img src="img/che_logo_small.png" alt="Che-lo Logo"></a>
+    </div>
+    <div id="main_nav_wrapper" class="column small-2 medium-2 large-2">
+      <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
 
-            <section class="mid">
-              <div>
-              <div class="menu line">
-                <a href="index.html"><img src="img/logo_chelo.png" alt=""></a>
-              </div>
+      <a href="https://www.instagram.com/che_lounioncity/?hl=en"
+      target="_blank"><img src="webicons/webicon-instagram-s.png" alt="instagram"></a>
 
-              <div class="menu line">
-              <nav>
-                <ul id="fontblack" class="fit menu" data-drilldown>
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                    <a id="fontblack">Menu</a>
-                    <ul class="menu">
-                      <li><a href="menudrinks.html" id="fontblack">Drinks</a>
-                        <ul class="menu">
-                          <li>
-                            <a href="menu_che.html">Ch&egrave;</a>
-                          </li>
-                          <li>
-                            <a href="menu_tea.html">Milk Tea/Tea</a>
-                          </li>
-                          <li>
-                            <a href="menu_coffee.html">Coffee</a>
-                          </li>
-                          <li>
-                            <a href="smoothie.html">Smoothie</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="menufood.html" id="fontblack">Food</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="about.html">About Us</a>
-                  </li>
-                  <li>
-                    <a href="contact.html" class="current">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="online_order.html" class="current">Order Online</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+      <a href="https://www.yelp.com/biz/che-lo-union-city-2"
+      target="_blank"><img src="webicons/webicon-yelp-s.png"
+      alt="Yelp"></a>
+    </div>
+  </header>
+  <!--off-canvas-->
+  <div class="off-canvas position-left" id="offCanvasLeft1" data-off-canvas>
 
-          <div class="menu mid">
-              <h6 id="padding">Connect with us!</h6>
-              <nav id="no_padding" class="fit menu">
-                  <ul>
-                    <li>
-                        <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/che_lounioncity/?hl=en"target="_blank">
-                        <img src="webicons/webicon-instagram-s.png" alt="instagram">
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.yelp.com/biz/che-lo-union-city-2" target="_blank">
-                        <img src="webicons/webicon-yelp-s.png" alt="Yelp">
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-                <p class="copyright raleway">(c) 2017 Che-Lo. All Rights Reserved.</p>
-              </div>
-            </section>
+   <!-- Close button -->
+   <section class="row">
+   <div class="mid">
+     <button class="close-button" aria-label="Close menu" type="button" data-close>
+       <span aria-hidden="true">&times;</span>
+     </button>
+    </div>
+    </section>
+
+   <!-- Menu -->
+   <section class="row line vspace padding">
+     <div>
+       <a href="index.html"><img src="img/che_logo_small.png" alt="Che-lo Logo"></a>
+     </div>
+   </section>
+   <section class="row line vspace padding">
+       <nav>
+         <ul class="vertical menu">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="menu.html" class="current">Menu</a></li>
+           <li><a href="about.html">About Us</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="online_order.html">Order</a></li>
+         </ul>
+       </nav>
+    </section>
+    <section class="row vspace">
+      <h2>Connect with Che-lo!</h2>
+      <div id="nav_wrapper">
+        <a href="https://www.facebook.com/Che-Lo-274759342722565/" class="fc-webicon facebook" target="_blank"><img src="webicons/webicon-facebook-s.png" alt="facebook"></a>
+
+        <a href="https://www.instagram.com/che_lounioncity/?hl=en"
+        target="_blank"><img src="webicons/webicon-instagram-s.png" alt="instagram"></a>
+
+        <a href="https://www.yelp.com/biz/che-lo-union-city-2"
+        target="_blank"><img src="webicons/webicon-yelp-s.png"
+        alt="Yelp"></a>
+      </div>
+
+        <p class="vspace">&copy; 2017 Che-Lo. All Rights Reserved.</p>
+      </section>
+  </div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+   <!-- Your page content lives here -->
+    <main class="row">
+      <div id="wrapper">
+      <section id="margin" class="row">
+          <div class="column small-12 medium-12 large-12">
+            <ul class="pricing-table">
+              <li class="price">Smoothies<span>...$4.95</span></li>
+            </ul>
           </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="row">
-          <div>
-            <h3>Smoothies<span>...$4.95</span></h3>
-          <p class="smalltxt">Choose up to 3 free toppings.</p>
-        </div>
-          <ul class="column small-12 medium-12 large-12">
-            <li>S1. Strawberry Smoothie</li>
-            <li>S2. Strawberry Banana Smoothie</li>
-            <li>S3. Mango Smoothie</li>
-            <li>S4. Passion Fruit Smoothie</li>
-            <li>S5. Lychee Smoothie</li>
-            <li>S6. Coconut Smoothie</li>
-            <li>S7. Avocado Smoothie<span>...$5.50</span></li>
-            <li>S8. Durian Smoothie<span>...$6.50</span></li>
-            <li>S9. Papaya Smoothie</li>
-            <li>S10. Sapota Smoothie</li>
-            <li>S11. Taro Smoothie</li>
-            <li>S12. Red Bean Smoothie</li>
-            <li>S13. Honeydew Smoothie</li>
-            <li>S14. Chocolate Smoothie</li>
-            <li>S15. Pineapple Smoothie</li>
-            <li>S16. Pina Colada Smoothie</li>
+      </section>
+      <section class="row vspace">
+        <div class="column small-12 medium-12 large-12">
+          <ul class="pricing-table">
+            <div class="column small-12 medium-12 large-3 vspace">
+              <ul class="pricing-table">
+                <li>S1. Strawberry Smoothie</li>
+                <li>S2. Strawberry Banana Smoothie</li>
+                <li>S3. Mango Smoothie</li>
+                <li>S4. Passion Fruit Smoothie</li>
+              </ul>
+          </div>
+          <div class="column small-12 medium-12 large-3 vspace">
+            <ul class="pricing-table">
+              <li>S5. Lychee Smoothie</li>
+              <li>S6. Coconut Smoothie</li>
+              <li>S7. Avocado Smoothie<span>...$5.50</span></li>
+              <li>S8. Durian Smoothie<span>...$6.50</span></li>
+            </ul>
+          </div>
+          <div class="column small-12 medium-12 large-3 vspace">
+            <ul class="pricing-table">
+              <li>S9. Papaya Smoothie</li>
+              <li>S10. Sapota Smoothie</li>
+              <li>S11. Taro Smoothie</li>
+              <li>S12. Red Bean Smoothie</li>
+            </ul>
+          </div>
+          <div class="column small-12 medium-12 large-3 vspace">
+            <ul class="pricing-table">
+              <li>S13. Honeydew Smoothie</li>
+              <li>S14. Chocolate Smoothie</li>
+              <li>S15. Pineapple Smoothie</li>
+              <li>S16. Pina Colada Smoothie</li>
+            </ul>
+          </div>
           </ul>
-      </section>
+        </div>
 
-
-      <section class="row">
-        <div>
-          <h3>Toppings</h3>
-          <p class="smalltxt">Extra toppings: Durian $1 each, all others $0.25 each.</p>
+        <section class="row">
+          <div class="column small-12 medium-3 large-12 vspace">
+          <ul class="pricing-table">
+            <li class="price">Toppings</li>
+            <li class="description">Choose up to 3 free toppings.</li>
+            <li class="description">Extra toppings: Durian $1 each, all others $0.25 each.
+            </li>
+          </ul>
+          <div class="column small-12 medium-3 large-4 vspace">
+          <ul class="pricing-table">
+            <li class="title">Beans and Seeds</li>
+            <li>Basil Seed</li>
+            <li>Large Red Bean</li>
+            <li>Lotus Seed</li>
+            <li>Mung Bean</li>
+            <li>Palm Seed</li>
+            <li>Small Red Bean</li>
+            <li>Taro</li>
+            <li>White Bean</li>
+          </ul>
+        </div>
+        <div class="column small-12 medium-3 large-4 vspace">
+          <ul class="pricing-table">
+            <li class="title">Jellies</li>
+            <li>Agar Brick</li>
+            <li>Agar String</li>
+            <li>Aloe Vera</li>
+            <li>Cendol</li>
+            <li>Coffee Jelly</li>
+            <li>Grass Jelly</li>
+            <li>Green Apple Jelly</li>
+            <li>Green Tea Jelly</li>
+            <li>Lychee Jelly</li>
+            <li>Mango Jelly</li>
+            <li>Pandan Jelly</li>
+            <li>Pearls</li>
+            <li>Pink Tapioca</li>
+            <li>Pop Jelly</li>
+            <li>Rainbow Jelly</li>
+            <li>Seaweed</li>
+            <li>Strawberry Jelly</li>
+            <li>Taro Jelly</li>
+          </ul>
+        </div>
+        <div class="column small-12 medium-4 large-4 vspace">
+          <ul class="pricing-table">
+            <li class="title">Fruits</li>
+            <li>Avocado</li>
+            <li>Banana</li>
+            <li>Chinese Apple</li>
+            <li>Dried Longan</li>
+            <li>Durian</li>
+            <li>Honeydew</li>
+            <li>Jackfruit</li>
+            <li>Longan</li>
+            <li>Lychee</li>
+            <li>Mango</li>
+            <li>Papaya</li>
+            <li>Pineapple</li>
+            <li>Rambutan</li>
+            <li>Strawberry</li>
+            <li>Young Conconut Meat</li>
+          </ul>
         </div>
       </section>
-
-    <section class="row">
-    <div  class="column small-12 medium-4 large-4">
-      <ul>
-        <p>Beans and Seeds--</p>
-          <li>Basil Seed</li>
-          <li>Large Red Bean</li>
-          <li>Lotus Seed</li>
-          <li>Mung Bean</li>
-          <li>Palm Seed</li>
-          <li>Small Red Bean</li>
-          <li>Taro</li>
-          <li>White Bean</li>
-        </ul>
-      </div>
-
-    <div class="column small-12 medium-4 large-4">
-      <ul>
-        <p>Jellies--</p>
-          <li>Agar Brick</li>
-          <li>Agar String</li>
-          <li>Aloe Vera</li>
-          <li>Cendol</li>
-          <li>Coffee Jelly</li>
-          <li>Grass Jelly</li>
-          <li>Green Apple Jelly</li>
-          <li>Green Tea Jelly</li>
-          <li>Lychee Jelly</li>
-          <li>Mango Jelly</li>
-          <li>Pandan Jelly</li>
-          <li>Pearls</li>
-          <li>Pink Tapioca</li>
-          <li>Pop Jelly</li>
-          <li>Rainbow Jelly</li>
-          <li>Seaweed</li>
-          <li>Strawberry Jelly</li>
-          <li>Taro Jelly</li>
-        </ul>
-      </div>
-
-<div class="column small-12 medium-4 large-4">
-    <ul>
-        <p>Fruits--</p>
-          <li>Avocado</li>
-          <li>Banana</li>
-          <li>Chinese Apple</li>
-          <li>Dried Longan</li>
-          <li>Durian</li>
-          <li>Honeydew</li>
-          <li>Jackfruit</li>
-          <li>Longan</li>
-          <li>Lychee</li>
-          <li>Mango</li>
-          <li>Papaya</li>
-          <li>Pineapple</li>
-          <li>Rambutan</li>
-          <li>Strawberry</li>
-          <li>Young Conconut Meat</li>
-        </ul>
-      </div>
-      </section>
+    </div>
   </main>
-  </body>
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
