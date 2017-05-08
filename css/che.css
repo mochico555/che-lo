@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body{
   background: linear-gradient(to top, #ffffff 50%, #ffff66 90%);
+  background-repeat: no-repeat;
 }
 h1,h2,h3,h4,h5  {
   font-family: 'Raleway', sans-serif;
@@ -11,7 +12,7 @@ h1{
   font-family: 'Cookie', cursive;
 }
 h2{
-  font-size: 2em;
+  font-size: 3em;
   font-family: 'Cookie', cursive;
 }
 h3,h4{
@@ -20,6 +21,7 @@ h3,h4{
 }
 h5{
   font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
 }
 h6{
   font-family: 'Raleway', sans-serif;
@@ -41,6 +43,10 @@ header{
   background: #fefefe;
   background-repeat: no-repeat;
   background-position: center;
+}
+ul,li{
+  list-style-type: none;
+  display: inline;
 }
 nav ul{
   list-style-type: none;
